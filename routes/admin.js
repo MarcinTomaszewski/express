@@ -28,6 +28,8 @@ router.get('/news/add', (req, res) => {
 // Dodawanie artykułu do bazy danych MongoDB cloud
 router.post('/news/add', (req, res) => {
     const body = req.body;
+    console.log(body);
+
     // Zapis do bazy danych, danych przesłanych w formularzu.
     const newsData = new News(body);
     // Walidacja formularza 
