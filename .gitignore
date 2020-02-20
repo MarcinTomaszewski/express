@@ -1,5 +1,5 @@
 #
 node_modules
 
-# Ten plik zawiera hasła i sesję. Dostępny tylko lokalnie.
+# Ten plik zawiera hasła do mongoDB cloud i sesję. Dostępny tylko lokalnie.
 config.js
